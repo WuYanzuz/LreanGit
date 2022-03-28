@@ -50,7 +50,7 @@ public void testParameter{
 
 - 在模型类属性上方，使用**@TableField**属性注解，通过==**value**==属性，设置当前属性对应的数据库表中的字段关系。
 
-![image-20210801182722773](.\img\image-20210801182722773.png)
+![image-20210801182722773](./img/image-20210801182722773.png)
 
 
 
