@@ -414,7 +414,7 @@ public class OrderApplication {
 
 然后填写服务信息：
 
-![image-20210713221339022](assets/image-20210713221339022.png)
+![image-20210713221339022](./img/image-20210713221339022.png)
 
 
 
