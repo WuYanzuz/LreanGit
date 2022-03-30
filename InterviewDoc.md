@@ -249,6 +249,35 @@ public class MyThreadPoolDemo3 {
         pool.shutdown();
     }
 }
+```
+##六、谈谈你对垃圾回收机制的了解
+**1、java中判定该对象是否为垃圾**
+>在java中我们指未被变量指向的对象称为垃圾对象
+```java
+class demo1{
+    public static void main(String[] args) {
+        Student s=new Student();
+        s=null;//没有指向对象后 new Student()这个对象便成为垃圾对象
+    }
+}
+```
+
+**如何验证**
+
+>垃圾回收机制会调用该方法的finalize()方法，我们重写查看效果
+
+**如何通知系统清理**
+
+```java
+System.gc();
+```
+
+##七、String,StringBuilder,StringBuffer三者的区别
+
+>最大的区别便是拼接字符串的方式不同
+> StringBuilder拼接字符串时，只需要new一个对象。StringBuffer同理，但是StringBuffer效率低，线程安全
+>String则是每拼接一个字符串便要new一个StringBuilder之后在toString转化成字符串。多次拼接时占用的内存较大。
+
 
 
 
