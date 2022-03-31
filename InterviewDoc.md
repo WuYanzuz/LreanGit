@@ -278,7 +278,14 @@ System.gc();
 > StringBuilder拼接字符串时，只需要new一个对象。StringBuffer同理，但是StringBuffer效率低，线程安全
 >String则是每拼接一个字符串便要new一个StringBuilder之后在toString转化成字符串。多次拼接时占用的内存较大。
 
+##八、是否可以从一个Static方法内部发出对非Static方法的调用
+>不可以静态方法是跟class一起加载的，所以说调用静态方法时可能这个对象并没有new出来，普通方法无法调用
 
+
+##九、Java中sleep和wait方法的区别
+
+>sleep()方法来自Thread类；wait()来自object，sleep()调用时会把cpu资源交给其他线程，但是她依然是监控状态的保持者，到了时间会拿回cpu资源
+> 如果在同步代码块时不会释放锁。wait()会释放锁；
 
 
 
