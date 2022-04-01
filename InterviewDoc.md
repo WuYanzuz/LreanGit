@@ -287,5 +287,7 @@ System.gc();
 >sleep()方法来自Thread类；wait()来自object，sleep()调用时会把cpu资源交给其他线程，但是她依然是监控状态的保持者，到了时间会拿回cpu资源
 > 如果在同步代码块时不会释放锁。wait()会释放锁；
 
-
+##10、hashmap和hashtable的区别
+>hashmap线程不安全，效率相对hashtable快 hashtable效率低，线程安全
+>hashmap支持null key 
 
