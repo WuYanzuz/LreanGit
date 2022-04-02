@@ -291,3 +291,6 @@ System.gc();
 >hashmap线程不安全，效率相对hashtable快 hashtable效率低，线程安全
 >hashmap支持null key 
 
+##11、饿汉式和懒汉式
+>饿汉式是在类加载的时候初始化 spring的单例模式便是饿汉加载
+>懒汉式是在调用的时候初始化  spring的prototype多例便是懒汉加载
