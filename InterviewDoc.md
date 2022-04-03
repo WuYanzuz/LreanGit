@@ -294,3 +294,7 @@ System.gc();
 ##11、饿汉式和懒汉式
 >饿汉式是在类加载的时候初始化 spring的单例模式便是饿汉加载
 >懒汉式是在调用的时候初始化  spring的prototype多例便是懒汉加载
+
+##12、Cookie和Session的区别
+>Cookie是保存在用户客户端的，Session是在服务端
+> Seesion保存在服务端，客户本地也会有cookie里的JsessionId会指向服务器中的Session
