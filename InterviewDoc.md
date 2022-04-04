@@ -298,3 +298,7 @@ System.gc();
 ##12、Cookie和Session的区别
 >Cookie是保存在用户客户端的，Session是在服务端
 > Seesion保存在服务端，客户本地也会有cookie里的JsessionId会指向服务器中的Session
+
+##13、post和get请求的区别
+>get请求一般对于一些查询请求，主要是得到响应体参数传递一般是通过url路径传参，数据会以明文的方式经行传递。
+> post请求一般对一些更新和新增请求，参数传递一般是通过请求体进行传参，相对于get来说要安全一些。
