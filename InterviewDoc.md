@@ -302,3 +302,25 @@ System.gc();
 ##13、post和get请求的区别
 >get请求一般对于一些查询请求，主要是得到响应体参数传递一般是通过url路径传参，数据会以明文的方式经行传递。
 > post请求一般对一些更新和新增请求，参数传递一般是通过请求体进行传参，相对于get来说要安全一些。
+
+##14、java线程有几种状态
+![img.png](img/img.png)
+>**六种**</br>
+> 1、New-新建状态</br>
+> 2、Runnable-可运行状态</br>
+> 3、Terminated-新建状态</br>
+> 4、Blocked-阻塞状态</br>
+> 5、Waiting-等待状态</br>
+> 6、Timed_Waiting-有时效的等待状态</br>
+> 
+
+##15、JSP九大内置对象
+> 1、Applaction</br>
+> 2、Exception</br>
+> 3、Page</br>
+> 4、PageContext</br>
+> 5、Out</br>
+> 6、Request</br>
+> 7、Response</br>
+> 8、config</br>
+> 9、Session</br>
