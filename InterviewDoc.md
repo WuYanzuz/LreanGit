@@ -327,4 +327,4 @@ System.gc();
 
 ##16、servlet的生命周期及常用方法
 
-![img.png](img/img.png)
+![img1.png](img/img.png)
