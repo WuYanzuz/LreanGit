@@ -304,7 +304,7 @@ System.gc();
 > post请求一般对一些更新和新增请求，参数传递一般是通过请求体进行传参，相对于get来说要安全一些。
 
 ##14、java线程有几种状态
-![img.png](img/img.png)
+![img.png](img/img1.png)
 >**六种**</br>
 > 1、New-新建状态</br>
 > 2、Runnable-可运行状态</br>
@@ -324,3 +324,7 @@ System.gc();
 > 7、Response</br>
 > 8、config</br>
 > 9、Session</br>
+
+##16、servlet的生命周期及常用方法
+
+![img.png](img/img.png)
