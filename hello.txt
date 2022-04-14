@@ -1,2 +1,13 @@
-hello
-hello
+sleep(),和wait()区别
+
+所属类不同
+sleep属于Thread类
+wait属于object类
+
+唤醒时机不同
+sleep(long)和wait(long)都会在时间结束后醒来
+wait(long)和wait()还可以被notify唤醒 , 如没有唤醒可以一直等待下去
+
+锁特性不同
+wait()调用需先获得锁对象,而sleep()无此限制
+wait(),在同步代码块时会释放锁，交给其他线程。sleep()则会一直抱着锁睡不会释放
